@@ -19,162 +19,102 @@ Speed
 User experience
 
 ## Algorithm
-1. Basic Prompt
-Prompt Used
-Provide a summary of the following article on "The Basics of Blockchain Technology" in around 150 words.
 
-The summary should:
 
-Include the key ideas.
-Be understandable for undergraduate students.
-Preserve the original meaning.
 
-Article:
-[Paste the article here]
+Aim of the Study:
+To test and compare how different models respond to various prompts — from open-ended or vague queries to well-structured and specific instructions — and to analyze how these variations impact:
 
-2. Role Prompt
-Prompt Used
-Assume you are a university lecturer teaching Blockchain Technology to first-year engineering students.
+Response quality
+Depth of understanding
+Accuracy and relevance
+Methodology:
+Select three categories of prompts:
 
-Read the article below and prepare a summary of approximately 150 words.
+Broad/unstructured
+Basic/clear
+Creative/advanced
+Use three major AI tools for response generation:
 
-Requirements:
+ChatGPT (OpenAI)
+Claude (Anthropic)
+DeepSeek (DeepSeekAI)
+For each prompt type, responses will be:
 
-Write in simple language.
-Emphasize the important concepts.
-Minimize technical terminology where possible.
+Evaluated qualitatively (coherence, depth, relevance)
+Rated quantitatively (scale of 1–5)
+Additionally, prompt inputs are given to:
 
-Article:
-[Paste the article here]
+Runway: to evaluate prompt interpretation for video generation
+Midjourney: to visualize response accuracy in image generation
+Prompt Types Explained:
+1.Broad/Unstructured Prompt: A Broad/Unstructured Prompt is a general or vague instruction given to an AI model, such as “Tell me about AI.” It lacks specific details or direction, leading to wide-ranging, often superficial responses. These prompts offer creative freedom but may result in less focused or less relevant outputs. e.g., "Tell me about AI."
 
-3. Context Prompt
-Prompt Used
-You are creating concise revision material for an educational platform designed for undergraduate students.
+Basic/Refined Prompt: A Basic/Refined Prompt is a clearly structured and specific instruction given to an AI model. It includes details like context, desired output, and format, guiding the model toward accurate, relevant, and high-quality responses. These prompts reduce ambiguity and enhance the depth and usefulness of the generated content. e.g., "Explain how AI is used in the healthcare sector with examples."
 
-Read the following Blockchain Technology article and produce a summary of about 150 words.
+Creative/Advanced Prompt: A creative/advanced prompt is a highly specific and imaginative instruction designed to unlock an AI's full potential. It encourages originality, emotional depth, and contextual richness. These prompts often involve storytelling, hypothetical scenarios, or complex tasks, resulting in more nuanced, engaging, and insightful responses compared to basic or broad prompts. e.g., "Generate a short sci-fi story where AI is used to terraform Mars, with emotional conflict." Scenario 1 – General Information Retrieval Prompt Type 1: "Talk about space"
 
-The summary should:
+ChatGPT: Gives a broad overview
+Claude: Focuses on key areas
+DeepSeek: Detailed facts and organized output
+Prompt Type 2: "List five recent space missions by NASA and their purpose"
 
-Cover the essential concepts.
-Remain accurate and well-organized.
-Help students review the topic efficiently before exams.
+ChatGPT: Highly accurate
+Claude: Deeper technical insight
+DeepSeek: Systematic list
+Observation: Refined prompts yield more relevant and focused responses. Scenario 2 – Creative Content Generation Prompt Type 1: "Write a story about robots"
 
-Article:
-[Paste the article here]
+ChatGPT: Engaging, generic plot
+Claude: Philosophical themes
+DeepSeek: Balanced creativity and logic
+Prompt Type 2: "Write a short story where a robot discovers human art in a post-apocalyptic world"
 
-4. Constraint Prompt
-Prompt Used
-Summarize the following article on Blockchain Technology while following these conditions:
+All models delivered richer, more compelling narratives with strong emotional arcs
+Observation: Advanced prompts unleash more creativity and coherence. Scenario 3 – Instructional/Procedural Response Prompt Type 1: "How to bake a cake?"
 
-Limit the summary to 150 words
-Use clear and simple English
-Avoid bullet points
-Suitable for first-year undergraduate students
-Keep the original meaning intact
-Mention only the essential concepts
+All models: Provided basic steps
+Prompt Type 2: "Provide a step-by-step chocolate cake recipe with measurements and baking time"
 
-Article:
-[Paste the article here]
+Responses: Detailed, instructional, and more actionable
+Observation: Clarity in prompt enhances instructional usefulness. Scenario 4 – Visual Media Creation Tool Used: Midjourney (Image) and Runway (Video)
 
-5. Output Format Prompt
-Prompt Used
-Summarize the following article on Blockchain Technology.
+Prompt Type 1: "Create an image of a city"
 
-Present the output using the following format:
+Midjourney: Generic skyline
+Runway: Vague visuals
+Prompt Type 2: "Generate a futuristic city at night with flying cars and neon lights"
 
-Title:
-Summary:
-Key Concepts:
+Midjourney: Stunning, detailed visuals
+Runway: High-concept sci-fi aesthetic
+Observation: Specific descriptors vastly improve visual content.
 
-Concept 1
-Concept 2
-Concept 3
-Conclusion:
+Evaluation Metrics:
+Responses were rated based on:
 
-Requirements:
+Relevance
+Depth
+Creativity
+Accuracy
+Clarity
+Scores ranged from 1 (low) to 5 (high). Refined prompts consistently scored higher.
 
-Around 150 words
-Easy to understand
-Appropriate for undergraduate students
+Key Findings:
+Broad Prompts often lead to surface-level, generic responses.
+Refined Prompts improve depth, clarity, and focus.
+Creative Prompts unlock the AI's potential for nuanced and original outputs.
+Models differ slightly in style:
+ChatGPT: Balanced and versatile
+Claude: Contextually deep and philosophical
+DeepSeek: Structured and informative
+Best Practices for Prompting:
+Tips:
 
-Article:
-[Paste the article here]
-AI Platform Evaluation
-ChatGPT + Zero-Shot Prompting
-Prompt Used
-Summarize the following Blockchain Technology article using simple language suitable for undergraduate students.
-Summary Generated
-Blockchain is a distributed digital ledger that securely stores data across multiple computers instead of relying on a single authority. Information is organized into linked blocks protected through cryptography, ensuring security and transparency. The technology is widely used in cryptocurrencies such as Bitcoin and is also applied in sectors including banking, healthcare, and supply chain management. Although blockchain offers improved trust and security, it still faces issues related to scalability and high energy consumption.
-
-Evaluation
-CriterionResult	
-Accuracy	High
-Coherence	Good
-Simplicity	Excellent
-Speed	Very Fast
-User Experience	Excellent
-Gemini + Few-Shot Prompting
-Prompt Used
-Review the following sample summaries and create a summary of the blockchain article in the same style.
-Summary Generated
-Blockchain is a decentralized digital ledger that stores records in interconnected blocks. Since every participant shares the same version of the data, the system becomes transparent and resistant to tampering. It is the foundation of cryptocurrency networks and also supports applications in finance, healthcare, and logistics. Despite its benefits, blockchain continues to face limitations such as slower processing speeds and increased energy requirements.
-
-Evaluation
-CriterionResult	
-Accuracy	Very High
-Coherence	Excellent
-Simplicity	Moderate
-Speed	Fast
-User Experience	Good
-Claude AI + Chain-of-Thought Prompting
-Prompt Used
-Carefully analyze the article, identify the main concepts step by step, and then prepare a concise summary suitable for undergraduate students.
-
-Summary Generated
-Blockchain is a decentralized ledger technology that records transactions securely across a network of computers. Transactions are grouped into blocks, which are linked together using cryptographic hashes to maintain integrity. Consensus mechanisms such as Proof of Work and Proof of Stake ensure secure validation of transactions. Blockchain is extensively used in cryptocurrency systems and has growing applications in banking, healthcare, and supply chain management. Its primary strengths include transparency and security, while scalability and energy consumption remain significant challenges.
-
-Evaluation
-CriterionResult	
-Accuracy	Excellent
-Coherence	Excellent
-Simplicity	Good
-Speed	Moderate
-User Experience	Very Good
-Microsoft Copilot + Role-Based Prompting
-Prompt Used
-Act as a university instructor and provide a brief explanation of blockchain technology for undergraduate students.
-
-Summary Generated
-Blockchain is a digital technology that stores information in connected blocks across multiple computer systems. Because the information is shared among many participants, it is highly secure and difficult to alter. The technology reduces dependence on central authorities while improving transparency and trust. Blockchain is widely used in cryptocurrency and financial applications, although concerns such as energy usage and transaction speed continue to exist.
-
-Evaluation
-CriterionResult	
-Accuracy	Good
-Coherence	Good
-Simplicity	Excellent
-Speed	Fast
-User Experience	Good
-Comparison Table
-AI PlatformPrompting TechniqueAccuracyCoherenceSimplicitySpeedUser Experience						
-ChatGPT	Zero-Shot	High	Good	Excellent	Very Fast	Excellent
-Gemini	Few-Shot	Very High	Excellent	Moderate	Fast	Good
-Claude AI	Chain-of-Thought	Excellent	Excellent	Good	Moderate	Very Good
-Microsoft Copilot	Role-Based	Good	Good	Excellent	Fast	Good
-Overall Findings
-PlatformKey StrengthLimitation		
-ChatGPT	Delivers an excellent combination of clarity, readability, and speed	Provides slightly fewer technical details than Claude AI
-Gemini	Produces organized and highly accurate summaries	Uses somewhat more advanced technical terms
-Claude AI	Generates the most detailed and logically consistent summaries	Takes a little longer to generate responses
-Microsoft Copilot	Offers concise and beginner-friendly explanations	Covers fewer details compared to Claude AI and Gemini
+Be clear about your intent
+Use specifics (what, who, how, when)
+Combine creative and structured phrasing
+Use follow-up prompts for deeper insights
+Example: Bad: "Talk about climate." Good: "Explain three ways climate change affects coastal cities, with real-world examples."
 
 
 ## Result
-Different prompting techniques were tested across several AI platforms for summarizing a technical article on Blockchain Technology.
-
-The experiment led to the following conclusions:
-
-Claude AI with Chain-of-Thought Prompting created the most accurate, coherent, and well-structured summaries by first identifying the core concepts before generating the final response.
-ChatGPT with Zero-Shot Prompting provided the best combination of simplicity, readability, response speed, and overall user experience, making it an excellent choice for undergraduate learners.
-Gemini with Few-Shot Prompting produced accurate and well-organized summaries, although the language was slightly more technical.
-Microsoft Copilot with Role-Based Prompting generated short, easy-to-understand summaries that were beginner-friendly but contained fewer technical details.
-
+This comparative study highlights the critical role that prompt engineering plays in AI interaction. More refined and detailed prompts consistently produce better, richer, and more useful outputs. As generative AI tools become more prevalent, users must learn how to communicate effectively with these systems to harness their full capabilities.
