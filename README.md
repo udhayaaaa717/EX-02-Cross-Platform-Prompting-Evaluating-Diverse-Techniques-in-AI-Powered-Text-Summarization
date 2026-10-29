@@ -22,13 +22,13 @@ User experience
 
 
 
-Aim of the Study:
+##Aim of the Study:
 To test and compare how different models respond to various prompts — from open-ended or vague queries to well-structured and specific instructions — and to analyze how these variations impact:
 
 Response quality
 Depth of understanding
 Accuracy and relevance
-Methodology:
+##Methodology:
 Select three categories of prompts:
 
 Broad/unstructured
@@ -47,7 +47,7 @@ Additionally, prompt inputs are given to:
 
 Runway: to evaluate prompt interpretation for video generation
 Midjourney: to visualize response accuracy in image generation
-Prompt Types Explained:
+##Prompt Types Explained:
 1.Broad/Unstructured Prompt: A Broad/Unstructured Prompt is a general or vague instruction given to an AI model, such as “Tell me about AI.” It lacks specific details or direction, leading to wide-ranging, often superficial responses. These prompts offer creative freedom but may result in less focused or less relevant outputs. e.g., "Tell me about AI."
 
 Basic/Refined Prompt: A Basic/Refined Prompt is a clearly structured and specific instruction given to an AI model. It includes details like context, desired output, and format, guiding the model toward accurate, relevant, and high-quality responses. These prompts reduce ambiguity and enhance the depth and usefulness of the generated content. e.g., "Explain how AI is used in the healthcare sector with examples."
@@ -88,7 +88,7 @@ Midjourney: Stunning, detailed visuals
 Runway: High-concept sci-fi aesthetic
 Observation: Specific descriptors vastly improve visual content.
 
-Evaluation Metrics:
+##Evaluation Metrics:
 Responses were rated based on:
 
 Relevance
@@ -98,7 +98,7 @@ Accuracy
 Clarity
 Scores ranged from 1 (low) to 5 (high). Refined prompts consistently scored higher.
 
-Key Findings:
+##Key Findings:
 Broad Prompts often lead to surface-level, generic responses.
 Refined Prompts improve depth, clarity, and focus.
 Creative Prompts unlock the AI's potential for nuanced and original outputs.
@@ -106,7 +106,7 @@ Models differ slightly in style:
 ChatGPT: Balanced and versatile
 Claude: Contextually deep and philosophical
 DeepSeek: Structured and informative
-Best Practices for Prompting:
+##Best Practices for Prompting:
 Tips:
 
 Be clear about your intent
